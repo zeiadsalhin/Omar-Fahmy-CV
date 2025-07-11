@@ -1,0 +1,106 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* define document colors */
+:root {
+  background-color: #1565c0; /* Pure blue */
+  color-scheme: dark;
+}
+
+.reveal {
+  position: relative;
+  transform: translateY(40px);
+  opacity: 0;
+  transition: all 1s;
+}
+
+.reveal.active {
+  transform: translateY(0px);
+  opacity: 1;
+}
+
+.revealdummy {
+  transform: translateY(0px);
+  opacity: 1;
+  transition: all 1s;
+}
+
+.revealdummy.active {
+  transform: translateY(0px);
+  opacity: 1;
+}
+
+/* font already prefetched in index.html */
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900;1000&display=swap');
+body {
+  font-family: 'Cairo', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+input,
+textarea,
+button,
+select,
+a {
+    -webkit-tap-highlight-color: transparent;
+    cursor: pointer;
+}
+
+img, h1, h2, h3, p {
+    user-drag: none;
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+.round {
+  border-bottom-left-radius: 400px;
+  border-bottom-right-radius: 400px;
+}
+
+.img {
+  border-bottom-left-radius: 200px;
+  border-bottom-right-radius: 350px;
+  border-top-left-radius: 300px;
+  border-top-right-radius: 200px;
+}
+
+.img2 {
+  border-bottom-left-radius: 300px;
+  border-bottom-right-radius: 350px;
+  border-top-left-radius: 300px;
+  border-top-right-radius: 250px;
+}
+
+.imgmain {
+  border-bottom-left-radius: 320px;
+  border-bottom-right-radius: 350px;
+  border-top-left-radius: 200px;
+  border-top-right-radius: 350px;
+}
+
+/* For hiding the scrollbar */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none; /* For Chrome, Safari, and Opera */
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;  /* For Internet Explorer 10+ */
+  scrollbar-width: none;     /* For Firefox */
+}
+
+@media (max-width: 767px) {
+  .lg\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
+  }
+
+  .hiddenm {
+    display: none;
+  }
+}
