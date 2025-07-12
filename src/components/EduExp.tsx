@@ -3,43 +3,43 @@ import { motion, AnimatePresence } from "framer-motion";
 
 const experiences = [
   {
-    title: "Freelancer – Web Developer",
-    company: "Freelancer",
-    period: "05/2022 – present",
+    title: "Game Developer",
+    company: "USA - Indiana",
+    period: "2024 – Current",
     highlights: [
-      "Founded 80% of Chattok Gaming web app using Nuxt.js & Supabase",
-      "Reduced login errors by 30% by using Supabase Auth",
-      "Created Economic Youth Web App used by 100+ students"
+      "Currently I’m working with growing company.",
+      "We have a great idea to convert streaming platforms like tiktok to completely intractable game.",
+      "Using backend and get information from tiktok api and likes and so on."
     ]
   },
   {
-    title: "Web Developer at PACTEL",
-    company: "PACTEL",
-    period: "01/2021 – present",
+    title: "Data Entry",
+    company: "El Maadi",
+    period: "2023 - 2024",
     highlights: [
-      "Improved performance 90% on pactel.site",
-      "Integrated APIs improving efficiency by 20%",
-      "Built MiddleEast landing page increasing traffic by 50%",
-      "Developed Pactel Courses with Vue & Tailwind, boosting enrollments by 40%"
+      "I Have worked as data typist in covo connect in Egypy-el-maadi.",
+      "I have learned so much from such experience as I can reach average 58 WPM.",
     ]
   },
-  // {
-  //   title: "Pactel Official Website",
-  //   period: "02/2025",
-  //   highlights: [
-  //     "Used React.js, Swiper, TailwindCSS, and Brevo CRM",
-  //     "Improved UI/UX, brand presence and CRM integration"
-  //   ]
-  // },
-  // {
-  //   title: "Movies App",
-  //   period: "03/2025",
-  //   highlights: [
-  //     "Full-stack app with React, Supabase, MUI, TMDB API",
-  //     "Auth with Email, OAuth, OTP, 2FA",
-  //     "Netflix-style responsive UI with protected routes"
-  //   ]
-  // },
+  {
+    title: "Game Developer Freelancer",
+    company: "Remote Job",
+    period: "2022 - Current",
+    highlights: [
+      "With more than 3 Years experience in this field I have mastered how to use unity",
+      "I have worked in many solo projects and as a team with a lot of people all over the world."
+    ]
+  },
+  {
+    title: "Mobile App Developer",
+    company: "Remote Job",
+    period: "2022 - Current",
+    highlights: [
+      "Developed cross-platform mobile apps using Flutter and Dart.",
+      "Implemented responsive UIs, integrated REST APIs and Firebase.",
+      "Optimized performance and ensured smooth UX on Android and iOS."
+    ]
+  },
   // {
   //   title: "E-commerce Store App",
   //   period: "04/2025",
@@ -112,7 +112,7 @@ const EduExp = () => {
               <div className="flex flex-col md:flex-row items-start md:items-center">
                 <div className="flex items-center space-x-4">
                   <div className="w-2 h-10 bg-blue-50/60"></div>
-                  <p className="text-lg md:text-xl me-6 text-[#B6B6B6]">09/2021 – 2025</p>
+                  <p className="text-lg md:text-xl me-12 text-[#B6B6B6]">2021 – 2025</p>
                 </div>
                 <div className="md:ml-10 mt-4 md:mt-0">
                   <h2 className="text-2xl md:text-3xl font-semibold text-blue-50/90">

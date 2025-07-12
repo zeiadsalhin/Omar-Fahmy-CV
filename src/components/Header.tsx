@@ -24,7 +24,7 @@ export default function Header() {
           <div className="mx-auto md:max-w-[80rem] 2xl:max-w-[95.9rem] px-4 xl:px-0 h-16 flex items-center justify-between">
             {/* Logo + Nav */}
             <div className="flex items-center space-x-10">
-              <img src="/logo.ico" alt="Logo" className="h-10 w-10" />
+              <img src="/logo.ico" alt="Logo" className="h-10 w-12" />
               <div className="hidden md:flex space-x-6 text-sm font-medium text-[#B6B6B6]">
                 {navLinks.map(link => (
                   <Link
