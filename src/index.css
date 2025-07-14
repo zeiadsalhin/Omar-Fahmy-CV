@@ -5,6 +5,7 @@
 :root {
   background-color: #1565c0; /* Pure blue */
   color-scheme: dark;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
 }
 
 .reveal {
@@ -28,12 +29,6 @@
 .revealdummy.active {
   transform: translateY(0px);
   opacity: 1;
-}
-
-/* font already prefetched in index.html */
-@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900;1000&display=swap');
-body {
-  font-family: 'Cairo', sans-serif;
 }
 
 html {
