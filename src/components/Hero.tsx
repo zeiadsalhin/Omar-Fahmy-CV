@@ -62,7 +62,7 @@ const Hero: React.FC = () => {
                 <span>Hire Me</span>
               </a>
               <a
-                href="https://drive.google.com/file/d/1_oJ0njaALK5R6caYnyrgUuzZy2QLhHCw/view?usp=sharing"
+                href="/Omar CV[1].pdf"
                 className="inline-flex items-center gap-2 bg-blue-500 hover:bg-[#07c7c4]/80 text-white px-6 py-3 rounded-lg shadow-md transition"
                 download
               >

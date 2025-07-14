@@ -47,7 +47,7 @@ export default function MyInfo() {
           {/* CV Button */}
           <div className="mt-5">
             <a
-              href="https://drive.google.com/file/d/1_oJ0njaALK5R6caYnyrgUuzZy2QLhHCw/view?usp=sharing&export=download"
+              href="/Omar CV[1].pdf"
               download
             >
               <Button
